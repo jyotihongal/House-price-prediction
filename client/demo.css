@@ -1,0 +1,63 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+	position:absolute;
+	top:20px;
+	right:6px;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  left:10px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 97%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+.about-section {
+  padding: 5px;
+  text-align: left;
+  background-color: #2F4F4F;
+  color: white;
+}
+
+.evaluation-section {
+  padding: 5px;
+  text-align: left;
+  background-color: #2F4F4F;
+  color: white;
+}
+
+.estimate-section {
+  padding: 5px;
+  text-align: left;
+  background-color: #2F4F4F;
+  color: white;
+}
+
+.a:hover{
+	color: white;
+}
